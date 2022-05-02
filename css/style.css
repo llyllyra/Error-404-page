@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/istockphoto-1195951431-612x612.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+section
+{
+    text-align: center;
+}
+
+.all
+{
+    padding: 10px 0;
+}
+
+.section_Error
+{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    margin-top: 190px;
+}
+.section_Error::after
+{
+    clear: left;
+}
+
+.section_Button
+{
+    margin-top: 50px;
+    text-align: center;
+}
+
+button
+{
+    width: 150px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: #fff;
+    border: 1px solid black;
+    transition: background-color 1s, transform 1s;
+}
+
+button:hover
+{
+    background-color: #fff;
+    transform: rotate(360deg);
+    color: blueviolet;
+    border: none;
+    box-shadow: 10px 7px 10px blueviolet;
+}
+
+.section_Text
+{
+    text-align: justify;
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
